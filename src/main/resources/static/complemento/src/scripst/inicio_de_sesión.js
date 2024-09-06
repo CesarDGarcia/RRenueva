@@ -97,7 +97,7 @@ function handleRegister(event) {
     };
 
     // Llamada a la API
-    const url = `http://18.188.203.54/api/v1`;
+    const url = `http://18.188.203.54:8080/api/v1`;
 
     fetch(url, {
         method: 'POST',
@@ -107,6 +107,7 @@ function handleRegister(event) {
         body: JSON.stringify(usuario)
     })
 }
+
 
 // Manejar el inicio de sesión de usuarios
 function handleLogin(event) {
