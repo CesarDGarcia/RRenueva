@@ -1,0 +1,12 @@
+spring:
+ application:
+  name: renueva
+ 
+ datasource:
+  url: jdbc:mysql://localhost:3306/ropa_renueva
+  username: root
+  password: $ekigaN96
+ 
+ jpa:
+  hibernate:
+   ddl-auto: update
